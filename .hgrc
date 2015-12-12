@@ -1,0 +1,57 @@
+# http://www.selenic.com/mercurial/hgrc.5.html
+[paths]
+repo_name = repo_url
+
+[ui]
+username = Atanas Dichev <atanas.dichev@skrill.com>
+verbose = true
+interactive = yes
+
+[extensions]
+# win32lfn = C:\Software\win32lfn\src\win32lfn.py
+# Bundled with Mercurial
+# hgsubversion = C:\Users\AtanasDichev\Documents\hgsubversion\hgsubversion
+hgext.convert =
+bookmarks =
+children =
+churn =
+histedit =
+color =
+convert =
+# eol =
+extdiff =
+fetch =
+graphlog =
+;imerge =
+;keyword =
+;largefiles =
+mq =
+;parentrevspec =
+progress =
+purge =
+rebase =
+record =
+relink =
+schemes =
+transplant =
+# Bundled with TortoiseHg
+#mercurial_keyring =
+#hgext.mercurial_keyring = C:\Software\keyring\mercurial_keyring.py
+# Provided by others
+;zipdoc = ...
+
+[patch]
+eol = auto
+
+
+[diff]
+unified = 5
+
+[eol]
+native = CRLF
+only-consistent = false
+
+[tortoisehg]
+ui.language = en_GB
+vdiff = kdiff3
+activatebookmarks = prompt
