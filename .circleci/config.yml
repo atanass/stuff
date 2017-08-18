@@ -6,4 +6,12 @@ jobs:
       - checkout
       - run:
           name: Print system date
+          shell: /bin/sh
           command: date
+      - run:
+          name: Print info
+          shell: /bin/sh
+          command: |
+            pwd
+            ls -la
+            cat /etc/*-release
